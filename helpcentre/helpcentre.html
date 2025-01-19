@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Help Center</title>
+    <link rel="stylesheet" href="helpcenter.css" />
+</head>
+
+<body>
+    <div class="help-center-container">
+        <header>
+            <h1>Help Center</h1>
+            <p>
+                Welcome to our Help Center. Find answers to your questions below or reach out to us for further assistance.
+            </p>
+        </header>
+
+        <section class="search">
+            <h2>Search for Help</h2>
+            <input type="text" id="search" placeholder="Search for solutions..." />
+            <button type="button">Search</button>
+        </section>
+
+        <section class="faqs">
+            <h2>Frequently Asked Questions (FAQs)</h2>
+            <div class="faq-item">
+                <h3>How do I create an account?</h3>
+                <p>
+                    To create an account, simply click the "Sign Up" button on the homepage and follow the instructions to register your details.
+                </p>
+            </div>
+            <div class="faq-item">
+                <h3>How can I track my order?</h3>
+                <p>
+                    You can track your order by logging into your account and visiting the "Orders" section. Enter your order number to see the current status.
+                </p>
+            </div>
+            <div class="faq-item">
+                <h3>How do I return an item?</h3>
+                <p>
+                    To return an item, go to the "Returns & Refunds" page in your account, and follow the steps to initiate a return process.
+                </p>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="#" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
