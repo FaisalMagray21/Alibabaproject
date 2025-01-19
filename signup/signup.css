@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.registration-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: normal; /* No bold text */
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: normal; /* No bold text */
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.trade-role {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.trade-role label {
+  display: inline-block;
+}
+
+.terms {
+  margin-top: 15px;
+}
+
+.terms input {
+  margin-right: 5px;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background: #0073e6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-weight: normal; /* No bold text */
+}
+
+.submit-button:hover {
+  background: #005bb5;
+}
+
+.info-text {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+  text-align: center;
+}
+#image {
+  width: 50px;
+  height: 20px;
+}
