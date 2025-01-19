@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seller Dashboard</title>
+    <link rel="stylesheet" href="seller.css" />
+</head>
+
+<body>
+    <div class="dashboard-container">
+        <header>
+            <h1>Seller Dashboard</h1>
+            <button id="logout-btn">Logout</button>
+        </header>
+
+        <!-- Form to Add a Product -->
+        <section class="add-product">
+            <h2>Add a Product</h2>
+            <form id="add-product-form">
+                <input type="text" id="product-name" placeholder="Product Name" required />
+                <input type="number" id="product-price" placeholder="Price" required />
+                <input type="file" id="product-image" placeholder="Product Image" required />
+                <button type="submit">Add Product</button>
+            </form>
+        </section>
+
+        <!-- Display Added Products -->
+        <section class="product-list">
+            <h2>Products Added by Seller</h2>
+            <ul id="product-list">
+                <!-- Product items will be added dynamically here -->
+            </ul>
+        </section>
+
+        <!-- Cart Summary -->
+        <section class="cart-list">
+            <h2>Buyer Cart</h2>
+            <ul id="cart-list">
+                <!-- Cart items will appear here -->
+            </ul>
+        </section>
+    </div>
+
+    <script src="seller.js"></script>
+</body>
+
+</html>
